@@ -21,6 +21,7 @@ commands
 |                      |                        | could throw, are displayed again.                                                      |
 
 The draw is handled in the client/frontend, until there is a winner.
+
 The win is handled in the server/backend:
 - It instanciates and saves a game object, 
 - It returns the result of the game to the client/frontend. 
