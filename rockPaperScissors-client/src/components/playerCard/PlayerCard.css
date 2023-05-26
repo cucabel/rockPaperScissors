@@ -1,0 +1,10 @@
+#playerCard {
+    height: 100%
+  }
+  
+  #playerText {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }

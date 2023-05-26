@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+#rockImg {
+  width: 100%;
+}
+
+#paperImg {
+  width: 100%;
+}
+
+#scissorsImg {
+  width: 100%;
+}
+
+#playerImg {
+  max-width:100%;
+
+  width: 100%;
+  height: auto;
+  object-fit:cover;
+}
