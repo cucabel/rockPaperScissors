@@ -54,13 +54,9 @@ The win is handled in the server/backend:
 
 ```javascript
 {
-
 ​	id: long id,
-
 ​	nickName: String,
-
 ​	games: List<Game>
-
 }
 ```
 
@@ -70,17 +66,11 @@ The win is handled in the server/backend:
 
 ```javascript
 {
-
 ​	id:  long,
-
 ​	playerSmybol:  String,
-
 ​	​enemySmybol:  String,
-
 ​	result: boolean,
-
 ​	player: Player
-
 }
 ```
 
@@ -103,9 +93,3 @@ The win is handled in the server/backend:
     - Optional<Player> getBy(long playerId)
 - GameService
     - boolean create(Game game, Long playerId)
-
-<br>
-
-### Git
-
-[Server repository Link](https://github.com/dimitrijd-iron/coldsurface-server)
